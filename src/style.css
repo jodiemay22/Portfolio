@@ -9,14 +9,6 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.introduction,
-.name,
-.job-title {
-  text-align: center;
-  margin: 60px auto;
-  max-width: 800px;
-}
-
 h1 {
   font-size: 96px;
 }
@@ -35,13 +27,43 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  .name,
+  .page-title {
+    font-size: 48px;
+  }
+  .introduction,
+  .porfolio-examples-title {
+    font-size: 24px;
+  }
+  .job-title {
+    font-size: 18px;
+  }
+  .porfolio-examples-description {
+    font-size: 15px;
+  }
+  .app-links {
+    font-size: 12px;
+  }
+}
+
+.introduction,
+.page-title,
+.name,
+.job-title {
+  text-align: center;
+  margin: 60px auto;
+  max-width: 800px;
+}
 .about-me {
   margin-bottom: 0;
 }
 .title-location {
   margin: 0 auto;
 }
-.introduction {
+.introduction,
+.page-title {
   margin-top: 90px;
   margin-bottom: 0;
 }
