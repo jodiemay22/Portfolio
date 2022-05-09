@@ -45,6 +45,14 @@ p {
   }
   .app-links {
     font-size: 12px;
+    display: block;
+    text-align: center;
+  }
+  .contact-me {
+    font-size: 25px;
+  }
+  .email-link {
+    font-size: 15px;
   }
 }
 
